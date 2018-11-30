@@ -54,4 +54,6 @@ public class Test1_BasicFeatures {
                 .then()
                 .body(hasXPath("/INVOICEList/INVOICE[text()='40']")).log().all();
     }
+
+    // all info
 }
