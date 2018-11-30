@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d33e0c8a-d109-4d11-933e-1bf2461aa539" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d33e0c8a-d109-4d11-933e-1bf2461aa539" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -70,8 +68,8 @@
       <file leaf-file-name="Test5_ReadResponseInDiffNoys.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RestAssured/JSON/Test5_ReadResponseInDiffNoys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="341">
+              <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -852,6 +850,9 @@
     <history-entry file="Test5_ReadResponseInDiffNoys_testExtractDetailsUsingPath - 2018.11.30 at 19h 21m 22s.xml">
       <configuration name="Test5_ReadResponseInDiffNoys.testExtractDetailsUsingPath" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test5_ReadResponseInDiffNoys_testExtractDetailsUsingPath - 2018.11.30 at 19h 24m 29s.xml">
+      <configuration name="Test5_ReadResponseInDiffNoys.testExtractDetailsUsingPath" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Test5_ReadResponseInDiffNoys_testGetResponseAsByteArray - 2018.11.30 at 19h 05m 13s.xml">
       <configuration name="Test5_ReadResponseInDiffNoys.testGetResponseAsByteArray" configurationId="JUnit" />
     </history-entry>
@@ -860,9 +861,6 @@
     </history-entry>
     <history-entry file="Test5_ReadResponseInDiffNoys_testGetResponseAsInputStream - 2018.11.30 at 19h 03m 11s.xml">
       <configuration name="Test5_ReadResponseInDiffNoys.testGetResponseAsInputStream" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test5_ReadResponseInDiffNoys_testGetResponseAsString - 2018.11.30 at 18h 50m 56s.xml">
-      <configuration name="Test5_ReadResponseInDiffNoys.testGetResponseAsString" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test5_ReadResponseInDiffNoys_testGetResponseAsString - 2018.11.30 at 18h 51m 05s.xml">
       <configuration name="Test5_ReadResponseInDiffNoys.testGetResponseAsString" configurationId="JUnit" />
@@ -880,7 +878,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42718446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23023579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1098,8 +1096,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RestAssured/JSON/Test5_ReadResponseInDiffNoys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="341">
+          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
