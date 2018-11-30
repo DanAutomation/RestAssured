@@ -17,6 +17,7 @@ public class Test1_BasicFeatures {
                 .body("CUSTOMER.ID", equalTo("10"))
                 .body("CUSTOMER.LASTNAME", equalTo("Fuller"))
                 .log().all();
+        System.out.println("test");
     }
 
     @Test
