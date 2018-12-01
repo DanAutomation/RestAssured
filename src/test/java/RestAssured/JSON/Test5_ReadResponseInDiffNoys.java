@@ -1,6 +1,7 @@
 package RestAssured.JSON;
 
 import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -53,8 +54,29 @@ public class Test5_ReadResponseInDiffNoys {
     public void testExtractPathInOneLine() {
         // type 1
         String href = get("http://jsonplaceholder.typicode.com/photos/1").path("thumbnailUrl");
-        System.out.println("Fetched url is: " + href);
+        System.out.println("Fetched URL 1: " + href);
         when().get(href).then().statusCode(200);
+
+        String href2 = get("http://jsonplaceholder.typicode.com/photos/1").andReturn().jsonPath().getString("thumbnailUrl");
+        System.out.println("Fetched URL 2: " + href2);
+        when().get(href2).then().statusCode(200);
+    }
+
+    @Test
+    public void testExtractDetailsUsingResponse() {
+        Response response =
+                when()
+                        .get("http://jsonplaceholder.typicode.com/photos/1")
+                .then()
+                        .extract()
+                        .response();
+
+        System.out.println("Content type: "+response.contentType());
+        System.out.println("href: "+response.path("url"));
+        System.out.println("href: "+response.path("url").equals("https://via.placeholder.com/600/92c952"));
+        System.out.println("title is: "+response.path("title"));
+        System.out.println("Status code: " + response.statusCode());
+
     }
 
 
